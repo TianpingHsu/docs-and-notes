@@ -12,3 +12,7 @@ then use Linux command `dd` (say `/dev/sdc` is your USB Flash Drive):
 ## Boot from your bootable USB Flash Drive
 Press `F12` or `F2`, select boot from USB Flash Drive.  
 
+
+## udpate sources
+replace `/etc/apt/sources.list` with [this one](./assets/sources.list)
+
