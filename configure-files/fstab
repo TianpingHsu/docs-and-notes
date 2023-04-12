@@ -1,0 +1,14 @@
+# /dev/sdb2
+UUID=f32eb12f-7cca-4124-8e01-69e0c43baf22	/         	ext4      	rw,relatime	0 1
+
+# /dev/sdb1
+UUID=09C1-B27D      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sdb2
+UUID=f32eb12f-7cca-4124-8e01-69e0c43baf22	/         	ext4      	rw,relatime	0 1
+
+# /dev/sdb1
+UUID=09C1-B27D      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda2
+UUID=106cd7e7-e3c3-4f4b-a3ef-4903b6c82ed9	/home 		ext4 defaults,errors=remount-ro 0 1
