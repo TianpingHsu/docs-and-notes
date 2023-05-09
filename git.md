@@ -6,15 +6,19 @@
 or  
 > git checkout -b <branch_name>
 
+
 * merge some commit to current branch
 > git cherry-pick <some-commit-hash>
+
 
 * create new branch based on a specific commit
 > git checkout -b <new-branch-name> <specific-commit-hash>
 
+
 * delete branch
 > git branch -d <local_branch_name>
 > git push <remote> --delete <remote_branch_name>
+
 
 * stash
 > git stash list
@@ -22,4 +26,25 @@ or
 
 
 * get remote url
-git config --get remote.origin.url
+> git config --get remote.origin.url
+
+
+* check log of a specific commit-id
+> git show <commit-id>
+
+
+* Hard reset of a single file
+> git checkout HEAD -- my-file.txt
+or 
+> git checkout @ -- myfile.ext  # @ is short for HEAD
+or
+> git checkout upstream/master -- myfile.txt
+
+
+* undo `git add`
+> git reset <file>
+or 
+> git reset 
+or 
+> git rm --cached <file>
+
