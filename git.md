@@ -48,3 +48,5 @@ or
 or 
 > git rm --cached <file>
 
+* Get the short Git version hash
+> git rev-parse --short HEAD  
